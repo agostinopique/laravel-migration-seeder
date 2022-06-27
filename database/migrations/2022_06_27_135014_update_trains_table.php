@@ -39,7 +39,6 @@ class UpdateTrainsTable extends Migration
             $table->dropColumn('departure_time');
             $table->dropColumn('arrival_time');
             $table->dropColumn('train_number');
-            $table->dropColumn('arrival_time');
             $table->dropColumn('carriage_number');
             $table->dropColumn('is_onTime');
         });
